@@ -1,7 +1,7 @@
 .sidebar{
     border-right: 1px solid var(--twitter-background); /*create dividing line between Home column and sidebar*/
     flex: 0.3;
-    /*min-width: 250px;*/ /*to stop it from shrinking*/
+    min-width: 250px; /*to stop it from shrinking*/
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;

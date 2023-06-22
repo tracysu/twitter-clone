@@ -7,7 +7,6 @@ function App() {
   return (
     //BEM 
     <div className="app">
-      <h1>Hello. It us. Twitter Clone w/ JENNYYYY!!!, Gustavo, and Tracy!🚀</h1>
     
       <Sidebar />
 

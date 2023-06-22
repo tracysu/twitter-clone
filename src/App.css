@@ -5,4 +5,9 @@ body{
 
 .app {
     display: flex;
+    height: 100vh;
+    max-width: 1300px; /*so it only stays a certain size, like the real Twitter does*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
 }
