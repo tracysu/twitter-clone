@@ -1,0 +1,26 @@
+.sidebarOption {
+    display: flex; /*puts icons and text next to each other*/
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOption:hover {
+    background-color: #e8f5fe; /*twitter blue upon hover*/
+    border-radius: 30px; /*curves corners of hover color*/
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root { /*finds all children of sidebarOptions and pads it*/
+    padding: 20px;
+}
+
+.sidebarOption > h2 { /*stylizes font for sidebarOption text*/
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption--active { /*makes it so the tab stays blue when it's on that option's page*/
+    color: var(--twitter-color);
+}
