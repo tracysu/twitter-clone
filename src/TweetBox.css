@@ -15,20 +15,20 @@
     display: flex;
 }
 
+
+.tweetBox__imageInput {
+    border: none;
+    padding: 10px;
+
+
+}
+
 .tweetBox__input > input {
     flex: 1;
     margin-left: 20px;
     font-size: 20px;
     border: none;
 }
-
-.tweetBox__imageInput {
-    border: none;
-    padding: 10px;
-    
-
-}
-
 .tweetBox__tweetButton {
     background-color: var(--twitter-color) !important; /*important overrides material UI theme*/
     border: none !important;
