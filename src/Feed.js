@@ -7,7 +7,7 @@ function Feed() {
     <div>
         {/* Header */}
         <div className="feed__header">
-            <h2> Home</h2>
+            <h2> Feed</h2>
         </div>
 
         {/* TweetBox */}
